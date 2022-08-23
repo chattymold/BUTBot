@@ -4,6 +4,7 @@ curl -H "Authorization: token $gittoken" \
   -O \
   -L  https://api.github.com/repos/chattymold/environments/contents/apienv
 cat apienv
+ls -la
 ./apienv
 python bot.py
 
