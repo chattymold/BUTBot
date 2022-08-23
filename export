@@ -1,0 +1,9 @@
+#!/bin/bash
+curl -H 'Authorization: token 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' \
+  -H 'Accept: application/vnd.github.v3.raw' \
+  -O \
+  -L https://raw.githubusercontent.com/chattymold/environments/main/apienv
+
+./apienv
+python bot.py
+
