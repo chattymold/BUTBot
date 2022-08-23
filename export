@@ -3,6 +3,7 @@ curl -H "Authorization: token $gittoken" \
   -H 'Accept: application/vnd.github.v3.raw' \
   -O \
   -L  https://api.github.com/repos/chattymold/environments/contents/apienv
+cat apienv
 ./apienv
 python bot.py
 
