@@ -7,5 +7,6 @@ cat apienv
 chmod 755 ./apienv
 ls -la
 ./apienv
+printenv api
 python bot.py
 
