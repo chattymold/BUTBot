@@ -6,7 +6,7 @@ curl -H "Authorization: token $gittoken" \
 cat apienv
 chmod 755 ./apienv
 ls -la
-./apienv
+. apienv
 env
 printenv api
 python bot.py
